@@ -130,6 +130,7 @@ input
 .eye-icon {
     position: absolute;
     top: 38%;
+    right: 23%;
     transform: translateY(-50%);
     cursor: pointer;
     width: 20px;
