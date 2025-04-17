@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dribble Page for Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page">
+        <div class="image">
+            <button onclick="window.location.href='https://dribbble.com/';" class="back">Back to Website →</button>
+            <p class="tagline">Capturing Moments,<br> Creating Memories</p>
+        </div>
+        <div class="form">
+            <h2> Create an Account</h2>
+            <p>Already have an account? <a href="https://dribbble.com/session/new">Log In</a></p>
+            <form>
+                <div class="Input_Credentials">
+                    <input type="text" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                <input type="email" placeholder="Email" required>
+                
+                <div class="field">
+                <input type="password" id="password" placeholder="Enter password" required>
+
+                <span class="eye-icon">
+                    <img id="togglePassword" class="eye" 
+                         src="https://cdn-icons-png.flaticon.com/512/709/709612.png" 
+                         alt="Show Password" style="width: 20px; cursor: pointer;">
+                </span>
+            </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the <a href="https://dribbble.com/terms">Terms & Conditions</a></label>
+                </div>
+                <button type="submit" class="Create">Create Account</button>
+            </form>
+
+            <div class="separator">Or register with</div>
+            <div class="apps">
+                <button onclick="window.location.href='https://www.google.com';" class="Google">
+                    <img src="https://www.gstatic.com/marketing-cms/assets/images/d5/dc/cfe9ce8b4425b410b49b7f2dd3f3/g.webp" 
+                         alt="Google"> Google
+                </button>
+                <button onclick="window.location.href='https://www.apple.com';" class="Apple">
+                    <img src="https://cdn4.iconfinder.com/data/icons/proglyphs-free/512/Apple-128.png" 
+                         alt="Apple"> Apple
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
